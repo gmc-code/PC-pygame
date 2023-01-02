@@ -5,7 +5,7 @@
 # import os
 # import sys
 import sphinx_rtd_theme
-project = 'PC-Python'
+project = 'PC-Pygame'
 copyright = '2021-23, GMC'
 author = 'GMC'
 
@@ -25,9 +25,6 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx_togglebutton',
     'sphinx_design',
-    'sphinx_thebe',
-    'nbsphinx',
-    'sphinxcontrib.jupyter',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -71,7 +68,7 @@ html_theme = 'sphinx_rtd_theme'
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
 #html_title = None
-html_title = "PC-Python"
+html_title = "PC-Pygame"
 
 # Use custom css
 html_css_files = ["css/custom.css"]
@@ -203,7 +200,7 @@ latex_elements['maketitle'] = r'''
         \centering
 
         \vspace*{40mm} %%% * is used to force space from top since first time is normally ignored
-        \textbf{\color{NavyBlue} \Huge {PC-Python}}
+        \textbf{\color{NavyBlue} \Huge {PC-Pygame}}
 
         \vspace{10mm}
         \begin{figure}[!h]
