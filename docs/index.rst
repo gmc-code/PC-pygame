@@ -20,6 +20,7 @@ PC-Pygame
     setup/pygame_setup.rst
 
 
+
 .. toctree::
     :maxdepth: 2
     :caption: Pygame basics
