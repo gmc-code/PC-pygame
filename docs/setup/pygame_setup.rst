@@ -8,8 +8,8 @@ Install pygame.
 
 .. code::
 
-    ip install pygame
-
+    pip install pygame --use-pep517
+--use-pep517
 
 Documentation
 ------------------
