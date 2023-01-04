@@ -1,7 +1,7 @@
 ====================================================
-Sprites
+Collision detection
 ====================================================
 
-Use sprites to make the code simpler.
+Use sprites to make collision detection simpler.
 
 
