@@ -41,12 +41,12 @@ Simple Game loop
                         pg.quit()
                         sys.exit()
 
+        def draw(self):
+            self.screen.fill((170, 238, 187))
+
         def update(self):
             pg.display.flip()
             self.clock.tick(self.FPS)
-
-        def draw(self):
-            self.screen.fill((170, 238, 187))
 
         def run(self):
             while True:
@@ -114,4 +114,27 @@ clock.tick
 | See: https://www.pygame.org/docs/ref/time.html#pygame.time.Clock.tick
 
 ----
+
+pg.event.get()
+--------------------
+
+| Use pg.event.get() to get the events for checking using actions.
+
+.. py:method::  pygame.event.get()
+
+    | get all the messages and remove them from the queue.
+
+| See: https://www.pygame.org/docs/ref/event.html#pygame.event.get
+
+----
+
+check_event
+-------------------
+  
+| ``check_event`` has starter code to make sure that exiting the game works well.
+| The game can be exited by clicking the window close box or by pressing the **q** or **escape** buttons.
+
+
+
+
 

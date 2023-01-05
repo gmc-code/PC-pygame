@@ -22,12 +22,12 @@ class Game:
                     pg.quit()
                     sys.exit()
 
+    def draw(self):
+        self.screen.fill((170, 238, 187))
+
     def update(self):
         pg.display.flip()
         self.clock.tick(self.FPS)
-
-    def draw(self):
-        self.screen.fill((170, 238, 187))
 
     def run(self):
         while True:
