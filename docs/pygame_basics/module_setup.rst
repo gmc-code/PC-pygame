@@ -5,7 +5,7 @@ Module setup
 | Pygame files are often organised into folders for images, sounds and separate code modules.
 | A typical structure is below.
 
-my_pygame_project/
+* my_pygame_project/
 * |
 * ├── __main__.py
 * |
