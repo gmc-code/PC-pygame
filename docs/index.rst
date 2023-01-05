@@ -20,7 +20,7 @@ PC-Pygame
 
     pygame_basics/module_setup.rst
     pygame_basics/main_file.rst
-    pygame_basics/main_game_file.rst
+    pygame_basics/game_file.rst
 
     
     .. pygame_basics/pygame_concepts.rst
