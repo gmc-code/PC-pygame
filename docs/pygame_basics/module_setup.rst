@@ -36,3 +36,5 @@ __main__.py
 
     python my_pygame_project
 
+
+| See: https://docs.python.org/3/library/__main__.html#main-py-in-python-packages

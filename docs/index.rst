@@ -13,7 +13,6 @@ PC-Pygame
     introduction/pygame_setup.rst
 
 
-
 .. toctree::
     :maxdepth: 2
     :caption: Pygame basics
@@ -21,9 +20,10 @@ PC-Pygame
 
     pygame_basics/module_setup.rst
     pygame_basics/main_file.rst
+    pygame_basics/main_game_file.rst
 
+    
     .. pygame_basics/pygame_concepts.rst
-    .. pygame_basics/basic_game_design.rst
     .. pygame_basics/sprites.rst
     .. pygame_basics/sprite_groups.rst
     .. pygame_basics/custom_events.rst

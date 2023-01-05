@@ -19,4 +19,4 @@ See: https://www.pygame.org/docs/
 Tutorials with code
 -----------------------
 
-See: https://realpython.com/pygame-a-primer/#background-and-setup
+See: https://realpython.com/pygame-a-primer/
