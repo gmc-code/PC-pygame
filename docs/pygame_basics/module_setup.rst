@@ -9,13 +9,13 @@ Module setup
 * ├── __main__.py
 * ├── assets/
 * │......├── sounds/
-* │......|......└── .wav files
+* │............└── .wav files
 * │......└── sprites/
-* │......|......└── .png files
+* │............└── .png files
 * ├── my_game/
-* │......├── game.py
-* │......├── player.py
-* │......├── sprites.py
+* │......└── game.py
+* │......└── player.py
+* │......└── sprites.py
 * │......└── game_utils.py 
 * └── requirements.txt
 
