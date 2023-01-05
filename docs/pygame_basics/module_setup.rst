@@ -10,18 +10,18 @@ my_pygame_project/
 * ├── __main__.py
 * |
 * ├── assets/
-│   ├── sounds/
-│   │   └── .wav files
-│   └── sprites/
-│       └── .png files
-|
-├── my_game/
-│   ├── game.py
-│   ├── player.py
-│   ├── sprites.py
-│   └── game_utils.py
-|
-└── requirements.txt
+* │   ├── sounds/
+* │   │   └── .wav files
+* │   └── sprites/
+* │       └── .png files
+* |
+* ├── my_game/
+* │   ├── game.py
+* │   ├── player.py
+* │   ├── sprites.py
+* │   └── game_utils.py
+* |
+* └── requirements.txt
 
 ----
 
