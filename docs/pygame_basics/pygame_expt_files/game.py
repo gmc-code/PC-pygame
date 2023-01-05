@@ -31,7 +31,7 @@ class Game:
 
     def run(self):
         while True:
-            self.draw()
             self.check_event()
+            self.draw()
             self.update()
             
