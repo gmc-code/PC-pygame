@@ -6,10 +6,10 @@ Module setup
 | A typical structure is below.
 
 my_pygame_project/
-|
-├── __main__.py
-|
-├── assets/
+* |
+* ├── __main__.py
+* |
+* ├── assets/
 │   ├── sounds/
 │   │   └── .wav files
 │   └── sprites/

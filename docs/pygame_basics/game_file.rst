@@ -12,8 +12,16 @@ Simple Game loop
 
 | The simple game loop is called by ``game.run()``. 
 | It has a **while True** loop.
-| It carries out 3 methods: **draw**, **check_event**, **update**.
+| It carries out 3 methods: **check_event**, **draw**, **update**.
 
+| **check_event** checks for user interaction, including mosue and keyboard.
+| In the starter code below it handles 3 ways to close the python program.
+
+| **draw** prepares any objects such as rects and sprites to be drawn to the screen.
+| In the starter code below it prepares to fills the screen surface with a solid colour.
+
+| **update** is for updating the screen and the clock.
+| In the starter code below it updates the screen and updates the clock.
 
 .. code-block:: python
 
@@ -50,10 +58,9 @@ Simple Game loop
 
         def run(self):
             while True:
-                self.draw()
                 self.check_event()
+                self.draw()
                 self.update()
-
 
 | Each part of the code above is explained below.
 
