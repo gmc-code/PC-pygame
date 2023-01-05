@@ -53,7 +53,10 @@ Simple Game loop
                 self.draw()
                 self.check_event()
                 self.update()
-                
+
+
+| Each part of the code above is explained below.
+
 
 ----
 
@@ -115,6 +118,14 @@ clock.tick
 
 ----
 
+check_event
+-------------------
+  
+| ``check_event`` has starter code to make sure that exiting the game works well.
+| The game can be exited by clicking the window close box or by pressing the **q** or **escape** buttons.
+
+----
+
 pg.event.get()
 --------------------
 
@@ -128,13 +139,85 @@ pg.event.get()
 
 ----
 
-check_event
--------------------
-  
-| ``check_event`` has starter code to make sure that exiting the game works well.
-| The game can be exited by clicking the window close box or by pressing the **q** or **escape** buttons.
+event.type
+--------------------
+
+| ``event.type == pg.QUIT`` responds to closing the window
+| ``event.type == pg.KEYDOWN`` responds to key presses.
+| ``event.key == pg.K_ESCAPE`` is True if the escape key is pressed.
+| ``event.key == pg.K_q`` is True if the "q" key is pressed.
+
+| For lists of various event types see: https://www.pygame.org/docs/ref/event.html#pygame.event.get
+
+----
+
+pg.quit()
+--------------------
+
+| Use ``pg.quit()`` before exiting the program with ``sys.exit()``.
+
+.. py:method::  pygame.quit()
+
+    | Uninitialize all pygame modules that have previously been initialized. 
+    | When the Python interpreter shuts down, this method is called regardless, 
+    so the program should not need it, except to terminate the pygame resources and continue. 
+    | It will not exit the program.
+
+| See: https://www.pygame.org/docs/ref/pygame.html#pygame.quit
+
+----
+
+sys.exit()
+--------------------
+
+| Use ``sys.exit()`` to exit the python program.
+
+.. py:method::  sys.exit()
+
+    | Exit the program. Exit from python.
+
+| See: https://docs.python.org/2/library/sys.html#sys.exit
 
 
+----
+
+update definition
+------------------
+
+| ``update`` has starter code to update the screen and update the clock.
+
+----
+
+pg.display.flip()
+--------------------
+
+.. py:method::  pygame.display.flip()
+
+    | Update the full display Surface to the screen
+
+| See: https://www.pygame.org/docs/ref/display.html#pygame.display.flip
+
+----
+
+draw definition
+------------------
+
+| ``draw`` has starter code to draw to the screen.
+
+----
+
+screen.fill((170, 238, 187))
+-------------------------------
+
+.. py:method::  fill(color, rect=None, special_flags=0)
+
+    | Fill the Surface with a solid color. 
+    | If no rect argument is given the entire Surface will be filled. 
+    | The rect argument will limit the fill to a specific area.
+    | The color argument can be either a RGB sequence, a RGBA sequence or a mapped color index. 
+    | If using RGBA, the Alpha (A part of RGBA) is ignored unless the surface uses per pixel alpha (Surface has the SRCALPHA flag).
+
+| See: https://www.pygame.org/docs/ref/surface.html?highlight=fill#pygame.Surface.fill
 
 
 
