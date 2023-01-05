@@ -8,7 +8,7 @@ Module setup
 * my_pygame_project/ 
 * ├── __main__.py
 * ├── assets/
-* │      ├── sounds/
+* │↨↨↨↨↨↨├── sounds/
 * │      |      └── .wav files
 * │      └── sprites/
 * │      |      └── .png files
