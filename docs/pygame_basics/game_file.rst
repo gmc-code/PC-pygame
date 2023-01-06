@@ -126,10 +126,10 @@ pg.time.Clock()
 
 ----
 
-clock.tick
+clock.tick()
 --------------------
 
-| Use pg.time.Clock() to set create a Clock object to control the game framerate.
+| After using pg.time.Clock() to set create a Clock object called clock, delay the game.
 
 .. py:method::  clock.tick(framerate=0)
 
@@ -163,8 +163,8 @@ pg.event.get()
 
 ----
 
-event.type
---------------------
+event.type and event.key
+--------------------------
 
 | ``event.type == pg.QUIT`` responds to closing the window by clicking on the X button in the top right.
 | ``event.type == pg.KEYDOWN`` responds to key presses.
@@ -230,7 +230,7 @@ draw definition
 
 ----
 
-screen.fill((170, 238, 187))
+screen.fill()
 -------------------------------
 
 .. py:method::  fill(color, rect=None, special_flags=0)
