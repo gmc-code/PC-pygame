@@ -35,20 +35,19 @@ Simple Game loop
             pg.init()
             self.WINDOW_WIDTH = 1200
             self.WINDOW_HEIGHT = 800
-            self.screen = pg.display.set_mode((self.WINDOW_WIDTH, self.WINDOW_HEIGHT))
-            pg.display.caption("My Game")
             self.FPS = 60
+            self.screen = pg.display.set_mode((self.WINDOW_WIDTH, self.WINDOW_HEIGHT))
+            pg.display.set_caption("My Game")
             self.clock = pg.time.Clock()
+            self.running = False
 
         def check_event(self):
             for event in pg.event.get():
                 if event.type == pg.QUIT:
-                    pg.quit()
-                    sys.exit()  
+                    self.run = False
                 elif event.type == pg.KEYDOWN:
                     if event.key == pg.K_ESCAPE or event.key == pg.K_q:
-                        pg.quit()
-                        sys.exit()
+                    self.running = False     
 
         def draw(self):
             self.screen.fill((170, 238, 187))
@@ -58,10 +57,14 @@ Simple Game loop
             self.clock.tick(self.FPS)
 
         def run(self):
-            while True:
+            self.running = True
+            while self.running:
                 self.check_event()
                 self.draw()
                 self.update()
+            pg.quit()
+            sys.exit()    
+
 
 | Each part of the code above is explained below.
 
@@ -163,7 +166,7 @@ pg.event.get()
 event.type
 --------------------
 
-| ``event.type == pg.QUIT`` responds to closing the window
+| ``event.type == pg.QUIT`` responds to closing the window by clicking on the X button in the top right.
 | ``event.type == pg.KEYDOWN`` responds to key presses.
 | ``event.key == pg.K_ESCAPE`` is True if the escape key is pressed.
 | ``event.key == pg.K_q`` is True if the "q" key is pressed.
