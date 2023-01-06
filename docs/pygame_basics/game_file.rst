@@ -36,6 +36,7 @@ Simple Game loop
             self.WINDOW_WIDTH = 1200
             self.WINDOW_HEIGHT = 800
             self.screen = pg.display.set_mode((self.WINDOW_WIDTH, self.WINDOW_HEIGHT))
+            pg.display.caption("My Game")
             self.FPS = 60
             self.clock = pg.time.Clock()
 
@@ -92,6 +93,19 @@ pygame.display.set_mode
     | If no size is passed or is set to (0, 0), the created Surface will have the same size as the current screen resolution. 
 
 | See: https://www.pygame.org/docs/ref/display.html#pygame.display.set_mode
+
+----
+
+pg.display.set_caption()
+-----------------------------------
+
+| Use pg.display.set_caption to set the window caption that appears in the top left of the window.
+
+.. py:method::  pygame.display.set_caption(title)
+    
+    | Change the name on the window.
+
+| See: https://www.pygame.org/docs/ref/display.html#pygame.display.set_caption
 
 ----
 
