@@ -1,5 +1,5 @@
 ====================================================
-Sound effects
+Basic Game Design
 ====================================================
 
 Use sprites to make the code simpler.

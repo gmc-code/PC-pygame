@@ -1,7 +1,7 @@
 ====================================================
-Sprites
+Sprite Groups
 ====================================================
 
-Use sprites to make teh code simpler.
+Use sprites to make the code simpler.
 
 

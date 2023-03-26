@@ -16,7 +16,8 @@ See: https://www.pygame.org/docs/
 
 ----
 
-Tutorials with code
------------------------
+Read the docs and Tutorials 
+-----------------------------
 
+See: https://pygame.readthedocs.io/en/latest/1_intro/intro.html
 See: https://realpython.com/pygame-a-primer/

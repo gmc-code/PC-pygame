@@ -281,7 +281,7 @@ latex_toplevel_sectioning = 'chapter'
 
 # for manual can use report
 latex_documents = [
-    (master_doc, 'PC-Python.tex', 'PC-Python',
+    (master_doc, 'PC-Pygame.tex', 'PC-Pygame',
     'GMC', 'manual'),
 ]
 
