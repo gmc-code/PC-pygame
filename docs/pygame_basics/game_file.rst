@@ -47,7 +47,7 @@ Simple Game loop
                     self.run = False
                 elif event.type == pg.KEYDOWN:
                     if event.key == pg.K_ESCAPE or event.key == pg.K_q:
-                    self.running = False     
+                        self.running = False     
 
         def draw(self):
             self.screen.fill((170, 238, 187))

@@ -13,6 +13,7 @@ Documentation
 ------------------
 
 See: https://www.pygame.org/docs/
+See: https://www.pygame.org/wiki/GettingStarted
 
 ----
 
