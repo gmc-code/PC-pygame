@@ -1,6 +1,0 @@
-breakout/assets/GIMP_files/*
-__pycache__/*
-*.pyc
-dist/*
-venv/*
-MANIFEST
